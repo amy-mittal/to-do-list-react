@@ -8,6 +8,7 @@ class App extends Component {
   };
 
   handleInputChange = event => {
+    // this.state.taskText = event.target.value; // incorrect: does not trigger a re-render
     this.setState({taskText: event.target.value}); // asynchronous (use this to change state)
   };
 
@@ -15,11 +16,17 @@ class App extends Component {
     // 1. add task to list
     // 2. clear input field
     this.state.tasks.unshift(this.state.taskText);
-    this.setState({taskText: ''});
+    this.setState({taskText: '', tasks: this.state.tasks});
+  };
+
+  deleteTask = index => {
+    this.state.tasks.splice(index, 1);
+    this.setState({tasks: this.state.tasks}); // needed to trigger a re-render
   };
 
   renderTask = (task, index) => {
-    return <li key={index}>{task}</li>; // key has to be unique for every loop
+    // () => empty function (a trick to get around not calling a method but needing to pass parameters)
+    return <li key={index}>{task} <button onClick={() => this.deleteTask(index)}>x</button></li>; // key has to be unique for every loop
   };
 
   render() {
