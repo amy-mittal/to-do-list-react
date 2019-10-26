@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f021ad24-c274-43ef-9ece-a06dddf7fdb0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572102843307</updated>
-      <workItem from="1572102844656" duration="3545000" />
+      <workItem from="1572102844656" duration="3627000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1572103172439</created>
@@ -80,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572105540386</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add a basic delete functionality to remove tasks.">
+      <created>1572106451014</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572106451015</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +137,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit." />
     <MESSAGE value="Implement a basic to do list that can only add new items at the top." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement a basic to do list that can only add new items at the top." />
+    <MESSAGE value="Add a basic delete functionality to remove tasks." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a basic delete functionality to remove tasks." />
   </component>
 </project>
